@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="icon.png" alt="logo">
+    <img width="20%" src="icon.png" alt="logo">
 </div>
 <h1 align="center">clippy</h1>
 <div align="center">
