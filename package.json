@@ -1,0 +1,26 @@
+{
+    "name": "clippy",
+    "version": "1.0.0",
+    "description": "Nifty little clipboard manager build with Electron",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/tiaanduplessis/clippy",
+        "type": "git"
+    },
+    "homepage": "https://github.com/tiaanduplessis/clippy",
+    "bugs": "https://github.com/tiaanduplessis/clippy",
+    "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+    "main": "main.js",
+    "scripts": {
+        "test": "npm run format",
+        "start": "electron .",
+        "format": "prettier-standard **/*.js",
+        "build":
+            "electron-packager . clippy --out=dist/osx --platform=darwin --arch=x64 --icon=icon.icns"
+    },
+    "devDependencies": {
+        "electron": "~1.7.9",
+        "electron-packager": "9.1.0",
+        "prettier-standard": "^7.0.3"
+    }
+}
