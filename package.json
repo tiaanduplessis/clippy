@@ -19,7 +19,7 @@
             "electron-packager . clippy --out=dist/osx --platform=darwin --arch=x64 --icon=icon.icns"
     },
     "devDependencies": {
-        "electron": "~1.7.9",
+        "electron": "~1.8.2",
         "electron-packager": "10.1.2",
         "prettier-standard": "^8.0.0"
     }
