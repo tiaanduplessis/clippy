@@ -1,6 +1,6 @@
 {
     "name": "clippy",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Nifty little clipboard manager build with Electron",
     "license": "MIT",
     "repository": {
@@ -15,8 +15,7 @@
         "test": "npm run format",
         "start": "electron .",
         "format": "prettier-standard **/*.js",
-        "build":
-            "electron-packager . clippy --out=dist/osx --platform=darwin --arch=x64 --icon=icon.icns"
+        "build": "electron-packager . clippy --out=dist/osx --platform=darwin --arch=x64 --icon=icon.icns"
     },
     "devDependencies": {
         "electron": "~1.8.2",
