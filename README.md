@@ -7,12 +7,6 @@
 </div>
 <br>
 <div align="center">
-  <a href="https://npmjs.org/package/clippy">
-    <img src="https://img.shields.io/npm/v/clippy.svg?style=flat-square" alt="npm package version" />
-  </a>
-  <a href="https://npmjs.org/package/clippy">
-  <img src="https://img.shields.io/npm/dm/clippy.svg?style=flat-square" alt="npm downloads" />
-  </a>
   <a href="https://github.com/feross/standard">
     <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="standard JS linter" />
   </a>
@@ -24,9 +18,6 @@
   </a>
   <a href="https://travis-ci.org/tiaanduplessis/clippy">
     <img src="https://img.shields.io/travis/tiaanduplessis/clippy.svg?style=flat-square" alt="travis ci build status" />
-  </a>
-  <a href="https://github.com/tiaanduplessis/clippy/blob/master/LICENSE">
-    <img src="https://img.shields.io/npm/l/clippy.svg?style=flat-square" alt="project license" />
   </a>
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="make a pull request" />
