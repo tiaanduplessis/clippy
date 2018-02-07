@@ -1,6 +1,6 @@
 'use strict'
 
-const {app} = require('electron')
+const { app } = require('electron')
 
 const Clipboard = require('./src/clipboard')
 const TrayHandler = require('./src/tray-handler')
