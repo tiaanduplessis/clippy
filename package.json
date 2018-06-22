@@ -19,7 +19,7 @@
     },
     "devDependencies": {
         "electron": "~1.8.2",
-        "electron-packager": "11.0.1",
+        "electron-packager": "11.2.0",
         "prettier-standard": "^8.0.0"
     }
 }
