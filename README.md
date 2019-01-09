@@ -24,23 +24,6 @@
   </a>
 </div>
 <br>
-<div align="center">
-  <a href="https://github.com/tiaanduplessis/clippy/watchers">
-    <img src="https://img.shields.io/github/watchers/tiaanduplessis/clippy.svg?style=social" alt="Github Watch Badge" />
-  </a>
-  <a href="https://github.com/tiaanduplessis/clippy/stargazers">
-    <img src="https://img.shields.io/github/stars/tiaanduplessis/clippy.svg?style=social" alt="Github Star Badge" />
-  </a>
-  <a href="https://twitter.com/intent/tweet?text=Check%20out%20clippy!%20https://github.com/tiaanduplessis/clippy%20%F0%9F%91%8D">
-    <img src="https://img.shields.io/twitter/url/https/github.com/tiaanduplessis/clippy.svg?style=social" alt="Tweet" />
-  </a>
-</div>
-<br>
-<div align="center">
-  Built with ❤︎ by <a href="https://github.com/tiaanduplessis">tiaanduplessis</a> and <a href="https://github.com/tiaanduplessis/clippy/contributors">contributors</a>
-</div>
-
-<br>
 
 <div align="center">
     <img src="example.png" alt="">
