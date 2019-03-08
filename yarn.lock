@@ -6,9 +6,10 @@
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/@sheerun/eslint-config-standard/-/eslint-config-standard-10.2.1.tgz#7d73397369c396b3625cab6ec313f6d4208300ef"
 
-"@types/node@^8.0.24":
-  version "8.5.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.10.tgz#49bd3637125dea5f55d7d1e8f51efd6cb835e1f7"
+"@types/node@^10.12.18":
+  version "10.12.30"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.30.tgz#4c2b4f0015f214f8158a347350481322b3b29b2f"
+  integrity sha512-nsqTN6zUcm9xtdJiM9OvOJ5EF0kOI8f1Zuug27O/rgtxCRJHGqncSWfCMZUP852dCKPsDsYXGvBhxfRjDBkF5Q==
 
 abbrev@1:
   version "1.1.1"
@@ -563,12 +564,12 @@ electron-packager@13.1.0:
     semver "^5.3.0"
     yargs-parser "^13.0.0"
 
-electron@~3.0.11:
-  version "3.0.15"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-3.0.15.tgz#525a93ec0e17ed15a1cc852b774c8329b229633a"
-  integrity sha512-Bp1CwnYaIWXNL9ZjgEaLlEkVEGpjJMupcAnxyCe00C2ZhQT9gY+RJaPzkrZC+J/Gc4MvvLtJcy/Hvsc+MTkfNg==
+electron@~4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-4.0.8.tgz#b7998b16543d2094f081757a0c5afdb8875ea510"
+  integrity sha512-FOBJIHkuv8wc15N+ZyqwDzPavYVu5CHMBEf14jHDWv7QW2vkEIpJjVK+PIT31kfZfvjsIP0j2wvA/FBsiqB7pw==
   dependencies:
-    "@types/node" "^8.0.24"
+    "@types/node" "^10.12.18"
     electron-download "^4.1.0"
     extract-zip "^1.0.3"
 
