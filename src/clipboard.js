@@ -1,7 +1,7 @@
 "use strict";
 
-const { clipboard } = require('electron');
-const EventEmitter = require('events').EventEmitter;
+const { clipboard } = require("electron");
+const EventEmitter = require("events").EventEmitter;
 
 const UPDATE_INTERVAL = 1000;
 
@@ -22,7 +22,7 @@ class Clipboard extends EventEmitter {
 
     if (!(this.items[this.items.length - 1] === currentItem)) {
       this.items.push(currentItem);
-      this.emit('update', this.items);
+      this.emit("update", this.items);
     }
   }
 
@@ -32,7 +32,7 @@ class Clipboard extends EventEmitter {
 
   clear(text) {
     this.items = [];
-    this.emit('update', this.items);
+    this.emit("update", this.items);
   }
 }
 
