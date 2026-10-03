@@ -12,7 +12,7 @@
     "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
     "main": "main.js",
     "scripts": {
-        "test": "npm run format",
+        "test": "node test/run.js",
         "start": "electron .",
         "format": "prettier-standard **/*.js",
         "build": "electron-packager . clippy --out=dist/osx --platform=darwin --arch=x64 --icon=icon.icns"
