@@ -36,6 +36,13 @@
   <li><a href="#license">License</a></li>
 </details>
 
+## Testing
+
+Run `npm test` for the dependency-free clipboard and tray-order regression tests.
+The tests mock Electron and clipboard polling; they do not start Electron or read
+your system clipboard. Native tray rendering still needs a macOS smoke test.
+Run `npm run format` separately when intentionally formatting JavaScript files.
+
 ## Contributing
 
 Contributions are welcome!

@@ -10,7 +10,8 @@ function TrayHandler ({ clipboard, app } = {}) {
   const appIcon = new Tray(image)
 
   function handleUpdate (data) {
-    const updatedContextMenu = data.map(item => {
+    const sortedItems = data.slice().reverse()
+    const updatedContextMenu = sortedItems.map(item => {
       const displayItem = item.length > 40 ? item.substring(0, 37) + '…' : item
       return {
         label: displayItem,
